@@ -2,9 +2,6 @@ import os
 import regex
 import argparse
 
-os.chdir("C:/Data/project_1_test")
-
-
 def get_file_content(path_to_file):
     content = None
     with open(path_to_file, encoding='utf8') as text_file:
